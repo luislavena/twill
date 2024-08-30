@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4bcd63ad63c1e52805d80fbbd9e6f87",
+    "content-hash": "f67f45184737710528bea8d30f8a8d65",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -1891,79 +1891,6 @@
             "description": "Glide adapter for Symfony",
             "homepage": "http://glide.thephpleague.com",
             "time": "2018-02-10T14:10:07+00:00"
-        },
-        {
-            "name": "lsrur/inspector",
-            "version": "v1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lsrur/inspector.git",
-                "reference": "39510a8d24b53dbe071c71c32b7dd9ef004c2461"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lsrur/inspector/zipball/39510a8d24b53dbe071c71c32b7dd9ef004c2461",
-                "reference": "39510a8d24b53dbe071c71c32b7dd9ef004c2461",
-                "shasum": ""
-            },
-            "require": {
-                "lsrur/toolbelt": "0.3.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Lsrur\\Inspector\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Laravel Inspector, debugging and profiling tools for Web Artisans",
-            "keywords": [
-                "debug",
-                "exceptions",
-                "laravel",
-                "profiler"
-            ],
-            "time": "2017-07-31T22:39:19+00:00"
-        },
-        {
-            "name": "lsrur/toolbelt",
-            "version": "0.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lsrur/toolbelt.git",
-                "reference": "b37a58c073bd4b8e2c83fc6992c90d26ccc0ca5d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lsrur/toolbelt/zipball/b37a58c073bd4b8e2c83fc6992c90d26ccc0ca5d",
-                "reference": "b37a58c073bd4b8e2c83fc6992c90d26ccc0ca5d",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/Toolbelt.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Set of PHP helper functions wrapped for Laravel.",
-            "keywords": [
-                "functions",
-                "helpers",
-                "laravel",
-                "php",
-                "tools"
-            ],
-            "time": "2016-08-11T22:11:45+00:00"
         },
         {
             "name": "madewithlove/illuminate-psr-cache-bridge",

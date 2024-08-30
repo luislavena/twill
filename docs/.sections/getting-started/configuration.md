@@ -342,9 +342,9 @@ The `allowed_extensions` configuration option is an array of file extensions tha
 
 #### Debug
 
-The [Laravel Debug Bar](https://github.com/barryvdh/laravel-debugbar) and [Inspector](https://github.com/lsrur/inspector) packages are installed and registered by Twill, except on production environments.
+The [Laravel Debug Bar](https://github.com/barryvdh/laravel-debugbar) package is installed and registered by Twill, except on production environments.
 
-On `development`, `local` and `staging` environment, Debug Bar is enabled by default. You can use Inspector instead by using the `DEBUG_USE_INSPECTOR` environment variable.
+On `development`, `local` and `staging` environment, Debug Bar is enabled by default.
 
 If you do not want to see the Debug Bar on the frontend of your Laravel application but want to keep it in Twill's admin console while developing or on staging servers, use the `DEBUG_BAR_IN_FE` environment variable:
 
